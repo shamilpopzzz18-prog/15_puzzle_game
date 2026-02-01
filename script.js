@@ -97,7 +97,7 @@ async function autoSolve() {
   if (solving) return;
   solving = true;
 
-  const res = await fetch("http://127.0.0.1:5000/solve", {
+  const res = await fetch("https://15-puzzle-backend.onrender.com/solve", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ board })
