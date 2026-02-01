@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>15 Puzzle Solver</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>15 Puzzle Solver</h1>
+
+  <div id="grid"></div>
+
+  <div class="status">
+    <span id="moves">Moves: 0</span>
+    <span id="time">Time: 00:00</span>
+  </div>
+
+  <div class="buttons">
+    <button onclick="shuffle()">Shuffle</button>
+    <button onclick="autoSolve()">Auto Solve</button>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</body>
+</html>
